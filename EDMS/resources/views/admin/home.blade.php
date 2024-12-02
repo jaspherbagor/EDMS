@@ -9,10 +9,25 @@
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Total News Categories</h4>
+                    <h4>Total Employee</h4>
                 </div>
                 <div class="card-body">
-                    12
+                    15
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="card card-statistic-1">
+            <div class="card-icon bg-primary">
+                <i class="far fa-user"></i>
+            </div>
+            <div class="card-wrap">
+                <div class="card-header">
+                    <h4>Regular Employee</h4>
+                </div>
+                <div class="card-body">
+                    10
                 </div>
             </div>
         </div>
@@ -24,10 +39,10 @@
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Total News</h4>
+                    <h4>Probationary Employee</h4>
                 </div>
                 <div class="card-body">
-                    122
+                    3
                 </div>
             </div>
         </div>
@@ -39,7 +54,7 @@
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Total Users</h4>
+                    <h4>Total Deparment</h4>
                 </div>
                 <div class="card-body">
                     45
