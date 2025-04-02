@@ -118,7 +118,7 @@ a:not(.btn-social-icon):not(.btn-social):not(.page-link) .fab {
   color: #3abaf4 !important; }
 
 .text-warning, .text-warning-all *, .text-warning-all *:before, .text-warning-all *:after {
-  color: #ffa426 !important; }
+  color: #d56a08 !important; }
 
 .text-danger, .text-danger-all *, .text-danger-all *:before, .text-danger-all *:after {
   color: #fc544b !important; }
@@ -1300,12 +1300,13 @@ h6 .badge {
     color: #fff !important; }
 
 .btn-warning, .btn-warning.disabled {
-  box-shadow: 0 2px 6px #ffc473;
-  background-color: #ffa426;
-  border-color: #ffa426;
+  box-shadow: 0 2px 6px #d56a08;
+  background-color: #d56a08;
+  border-color: #d56a08;
   color: #fff; }
   .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active {
-    background-color: #ff990d !important;
+    background-color: #d56a08 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     color: #fff !important; }
 
 .btn-outline-warning:hover, .btn-outline-warning:focus, .btn-outline-warning:active, .btn-outline-warning.disabled:hover, .btn-outline-warning.disabled:focus, .btn-outline-warning.disabled:active {
