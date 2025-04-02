@@ -5,14 +5,44 @@
     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
         <div class="card card-statistic-1">
             <div class="card-icon bg-warning">
-                <i class="fas fa-smile"></i>
+                <i class="fas fa-tasks"></i>
             </div>
             <div class="card-wrap">
                 <div class="card-header">
-                    <h4>Satisfied Clients</h4>
+                    <h4>Total Projects</h4>
                 </div>
                 <div class="card-body">
                     20
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="card card-statistic-1">
+            <div class="card-icon bg-warning">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="card-wrap">
+                <div class="card-header">
+                    <h4>Completed Projects</h4>
+                </div>
+                <div class="card-body">
+                    15
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="card card-statistic-1">
+            <div class="card-icon bg-warning">
+                <i class="fas fa-spinner"></i>
+            </div>
+            <div class="card-wrap">
+                <div class="card-header">
+                    <h4>Ongoing Projects</h4>
+                </div>
+                <div class="card-body">
+                    5
                 </div>
             </div>
         </div>

@@ -37,7 +37,7 @@
                                 @if(session()->get('success'))
                                 <div class="alert alert-success">{{ session()->get('success') }}</div>
                                 @endif
-                                <form method="POST" action="">
+                                <form method="" action="">
                                     @csrf
                                     <div class="form-group">
                                         <input type="email" class="form-control @error('email') is-invalid   @enderror" name="email" placeholder="Email Address" value="{{ old('email') }}" autofocus>
@@ -52,13 +52,16 @@
                                         @enderror
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-warning btn-lg btn-block">
+                                        <button type="submit" class="btn btn-warning btn-lg btn-block" onclick="dashboardRedirect()">
                                             Login
                                         </button>
                                     </div>
                                     <div class="form-group">
                                         <div>
-                                            <a href="">
+                                            {{-- <a href="{{ route('admin_home') }}">
+                                                Go to home
+                                            </a> --}}
+                                            <a href="{{ route('admin_home') }}">
                                                 Forget Password?
                                             </a>
                                         </div>

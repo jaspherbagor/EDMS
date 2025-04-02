@@ -14,9 +14,17 @@
             <li class="active"><a class="nav-link" href="index.html"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a></li>
 
             <li class="nav-item dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-tasks"></i><span>Project</span></a>
+                <ul class="dropdown-menu">
+                    <li class=""><a class="nav-link" href=""><i class="fas fa-angle-right"></i> All Project</a></li>
+                    <li class=""><a class="nav-link" href=""><i class="fas fa-angle-right"></i>Completed Project</a></li>
+                    <li class="active"><a class="nav-link" href=""><i class="fas fa-angle-right"></i> Ongoing Project</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
                 <a href="#" class="nav-link has-dropdown"><i class="fas fa-user"></i><span>Employee</span></a>
                 <ul class="dropdown-menu">
-                    <li class=""><a class="nav-link" href=""><i class="fas fa-angle-right"></i> Employee List</a></li>
+                    <li class=""><a class="nav-link" href=""><i class="fas fa-angle-right"></i>All Employee</a></li>
                     <li class=""><a class="nav-link" href=""><i class="fas fa-angle-right"></i>Add Employee</a></li>
                     <li class="active"><a class="nav-link" href=""><i class="fas fa-angle-right"></i> Regular Employee</a></li>
                     <li class=""><a class="nav-link" href=""><i class="fas fa-angle-right"></i>Probationary Employee</a></li>
