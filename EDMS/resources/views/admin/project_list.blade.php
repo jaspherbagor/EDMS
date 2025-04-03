@@ -21,7 +21,13 @@
                                         <th>Location</th>
                                         <th>Client Name</th>
                                         <th>Admin</th>
-                                        <th>Current Progress</th>
+                                        <th>Current Overall Progress</th>
+                                        <th>Electrical Department</th>
+                                        <th>Masonry Department</th>
+                                        <th>Painting Department</th>
+                                        <th>Plumbing Department</th>
+                                        <th>Carpentry Department</th>
+                                        <th>Finishing Department</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -29,13 +35,39 @@
                                     <tr>
                                         <td>1</td>
                                         <td>Little Moses Learning Center</td>
-                                        <td><img src="" alt="slide_image" class="w_200"></td>
+                                        <td><img src="" alt="image" class="w_200"></td>
                                         <td>Vista Mall - General Trias</td>
                                         <td>Jane Doe</td>
                                         <td>Baby Javier</td>
                                         <td>50%</td>
+                                        <td>20%</td>
+                                        <td>40%</td>
+                                        <td>30%</td>
+                                        <td>30%</td>
+                                        <td>30%</td>
+                                        <td>30%</td>
                                         <td class="pt_10 pb_10">
-                                            <a href="" class="btn btn-primary">Edit</a>
+                                            <a href="" class="btn btn-primary mb-2">Edit</a>
+                                            <a href="" class="btn btn-danger" onClick="return confirm('Are you sure you want to delete?');">Delete</a>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Coffee Shop</td>
+                                        <td><img src="" alt="image" class="w_200"></td>
+                                        <td>Vista Mall - Dasmariñas</td>
+                                        <td>Jane Doe</td>
+                                        <td>Mark Palugan</td>
+                                        <td>40%</td>
+                                        <td>20%</td>
+                                        <td>40%</td>
+                                        <td>30%</td>
+                                        <td>30%</td>
+                                        <td>30%</td>
+                                        <td>30%</td>
+                                        <td class="pt_10 pb_10">
+                                            <a href="" class="btn btn-primary mb-2">Edit</a>
                                             <a href="" class="btn btn-danger" onClick="return confirm('Are you sure you want to delete?');">Delete</a>
                                         </td>
                                         
