@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-md-6 right-side">
                         <ul class="right">
-                            @if($global_page_data->cart_status === 1)
+                            {{-- @if($global_page_data->cart_status === 1)
                             <li class="menu"><a href="{{ route('cart') }}">{{ $global_page_data->cart_heading }}</a></li>
                             @endif
                             @if($global_page_data->checkout_status === 1)
@@ -63,7 +63,7 @@
 
                                 <li class="menu"><a href="{{ route('customer_home') }}">Dashboard</a></li>
 
-                            @endif
+                            @endif --}}
                         </ul>
                     </div>
                 </div>
@@ -93,17 +93,17 @@
                                     <a href="{{ route('home') }}" class="nav-link">Home</a>
                                 </li>
 
-                                @if($global_page_data->about_status === 1)
+                                {{-- @if($global_page_data->about_status === 1)
                                 <li class="nav-item">
                                     <a href="{{ route('about') }}" class="nav-link">{{ $global_page_data->about_heading }}</a>
                                 </li>
-                                @endif
+                                @endif --}}
 
                                 <li class="nav-item">
                                     <a href="javascript:void;" class="nav-link dropdown-toggle">Accommodations</a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="{{ route('room') }}" class="nav-link">All Accommodations</a>
+                                            <a href="" class="nav-link">All Accommodations</a>
                                         </li>
                                         {{-- @foreach($room_all as $item)
                                         <li class="nav-item">
@@ -124,7 +124,7 @@
                                 <li class="nav-item">
                                     <a href="javascript:void;" class="nav-link dropdown-toggle">Gallery</a>
                                     <ul class="dropdown-menu">
-                                        @if($global_page_data->photo_gallery_status === 1)
+                                        {{-- @if($global_page_data->photo_gallery_status === 1)
                                         <li class="nav-item">
                                             <a href="{{ route('photo_gallery') }}" class="nav-link">Photo Gallery</a>
                                         </li>
@@ -133,19 +133,19 @@
                                         <li class="nav-item">
                                             <a href="{{ route('video_gallery') }}" class="nav-link">Video Gallery</a>
                                         </li>
-                                        @endif
+                                        @endif --}}
                                     </ul>
                                 </li>
-                                @if($global_page_data->blog_status === 1)
+                                {{-- @if($global_page_data->blog_status === 1)
                                 <li class="nav-item">
                                     <a href="{{ route('blog') }}" class="nav-link">Blog</a>
                                 </li>
-                                @endif
-                                @if($global_page_data->contact_status === 1)
+                                @endif --}}
+                                {{-- @if($global_page_data->contact_status === 1)
                                 <li class="nav-item">
                                     <a href="{{ route('contact') }}" class="nav-link">{{ $global_page_data->contact_heading }}</a>
                                 </li>
-                                @endif
+                                @endif --}}
                             </ul>
                         </div>
                     </nav>
@@ -168,18 +168,18 @@
                             <h2 class="heading">Site Links</h2>
                             <ul class="useful-links">
                                 <li><a href="rooms.html">Accommodations</a></li>
-                                @if($global_page_data->photo_gallery_status === 1)
+                                {{-- @if($global_page_data->photo_gallery_status === 1)
                                 <li><a href="{{ route('photo_gallery') }}">Photo Gallery</a></li>
-                                @endif
-                                @if($global_page_data->video_gallery_status === 1)
+                                @endif --}}
+                                {{-- @if($global_page_data->video_gallery_status === 1)
                                 <li><a href="{{ route('video_gallery') }}">Video Gallery</a></li>
-                                @endif
-                                @if($global_page_data->blog_status === 1)
+                                @endif --}}
+                                {{-- @if($global_page_data->blog_status === 1)
                                 <li><a href="{{ route('blog') }}">Blog</a></li>
-                                @endif
-                                @if($global_page_data->contact_status === 1)
+                                @endif --}}
+                                {{-- @if($global_page_data->contact_status === 1)
                                 <li><a href="{{ route('contact') }}">{{ $global_page_data->contact_heading }}</a></li>
-                                @endif
+                                @endif --}}
                             </ul>
                         </div>
                     </div>
@@ -188,15 +188,15 @@
                             <h2 class="heading">Useful Links</h2>
                             <ul class="useful-links">
                                 <li><a href="{{ route('home') }}">Home</a></li>
-                                @if($global_page_data->terms_status === 1)
+                                {{-- @if($global_page_data->terms_status === 1)
                                 <li><a href="{{ route('terms') }}">Terms and Conditions</a></li>
-                                @endif
-                                @if($global_page_data->privacy_status === 1)
+                                @endif --}}
+                                {{-- @if($global_page_data->privacy_status === 1)
                                 <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
-                                @endif
-                                @if($global_page_data->faq_status === 1)
+                                @endif --}}
+                                {{-- @if($global_page_data->faq_status === 1)
                                 <li><a href="{{ route('faq') }}">FAQ</a></li>
-                                @endif
+                                @endif --}}
                             </ul>
                         </div>
                     </div>
@@ -246,7 +246,7 @@
                             <p>
                                 In order to get the latest news and other great opportunities at Labason Safe Haven, please subscribe us here: 
                             </p>
-                            <form action="{{ route('subscriber_send_email') }}" method="post" class="form_subscribe_ajax">
+                            <form action="" method="post" class="form_subscribe_ajax">
                                 @csrf
                                 <div class="form-group">
                                     <input type="email" name="email" class="form-control">
